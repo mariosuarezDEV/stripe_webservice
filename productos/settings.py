@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "import_export",
     "djstripe",
     "django_htmx",
+    "django_bootstrap5",
 ]
 
 MIDDLEWARE = [

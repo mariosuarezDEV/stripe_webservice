@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap -->
+    {% load django_bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django + Stripe</title>
+</head>
+<body>
+    <div class="container">
+        {% block contenido %}
+    
+        {% endblock contenido %}
+    </div>
+    
+</body>
+</html>
